@@ -19,24 +19,36 @@ venv\Scripts\activate  (windows uchun) yoki  source venv/bin/activate(unix-ga as
 * 4 - Bog'liqlarni o'rnating (Install dependencies)
 
 ```
-pip3 install -r requirements.txt
+pip3 install -r requirements.txt 
+yoki
 pip install -r requirements.txt
 ```
 
 * 5 - Atrof-muhit o'zgaruvchilarini o'rnating (Set your environment variables)
-```copy .env.exam .env``` (windows uchun) yoki ```.env.exam .env```(unix-ga asoslangan tizimlar)
-```.env o'zgaruvchilari
+
+```
+copy .env.exam .env (windows uchun) yoki 
+.env.exam .env(unix-ga asoslangan tizimlar)
+.env o'zgaruvchilari
     SECRET_KEY      ==> Yangi loyiha yarating Djangoda settings.py filedan SECRET_KEY ni oling va shu yerga joylang
     DEBUG=True      ==> Default
     ALLOWED_HOSTS=* ==> Default
     PostgreSQL database yarating unga user hamda passwordlarni ham joylashtiring
 ```
+
 * 6 - Ishga tushirish (Run)
-```python3 manage.py collectstatic```
-```python3 manage.py migrate```
-```python3 manage.py runserver```
+
+```
+python3 manage.py collectstatic
+python3 manage.py migrate
+python3 manage.py runserver
+```
+
 * 7 - Loyihaga mustaqil davom etish: loyihaga ko'ra app yaratish
-```python3 manage.py startapp your_app_name```
+
+```
+python3 manage.py startapp your_app_name
+```
 
 
 <hr>
