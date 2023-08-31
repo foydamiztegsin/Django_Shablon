@@ -31,8 +31,8 @@ pip install -r requirements.txt
 * 5 - Atrof-muhit o'zgaruvchilarini o'rnating (Set your environment variables)
 
 ```rb
-copy .env.exam .env (windows uchun) yoki 
-.env.exam .env(unix-ga asoslangan tizimlar)
+copy .env.exam .env       (windows uchun) yoki
+.env.exam .env            (unix-ga asoslangan tizimlar)
 
 .env o'zgaruvchilari:
 
@@ -45,15 +45,15 @@ PostgreSQL database yarating unga user hamda passwordlarni ham joylashtiring
 * 6 - Ishga tushirish (Run)
 
 ```rb
-python3 manage.py collectstatic
-python3 manage.py migrate
-python3 manage.py runserver
+python manage.py collectstatic
+python manage.py migrate
+python manage.py runserver
 ```
 
 * 7 - Loyihaga mustaqil davom etish: loyihaga ko'ra app yaratish
 
 ```rb
-python3 manage.py startapp your_app_name
+python manage.py startapp your_app_name
 ```
 
 
