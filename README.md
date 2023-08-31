@@ -12,12 +12,12 @@
   - ```pip3 install -r requirements.txt```
   - ```pip install -r requirements.txt```
 * 5 - Atrof-muhit o'zgaruvchilarini o'rnating (Set your environment variables)
-- ```copy .env.exam .env``` (windows uchun) yoki ```.env.exam .env```(unix-ga asoslangan tizimlar)
-- .env o'zgaruvchilari
-- SECRET_KEY      ==> Yangi loyiha yarating Djangoda settings.py filedan SECRET_KEY ni oling va shu yerga joylang
-- DEBUG=True      ==> Default
-- ALLOWED_HOSTS=* ==> Default
-- PostgreSQL database yarating unga user hamda passwordlarni ham joylashtiring
+  - ```copy .env.exam .env``` (windows uchun) yoki ```.env.exam .env```(unix-ga asoslangan tizimlar)
+  - .env o'zgaruvchilari
+  - SECRET_KEY      ==> Yangi loyiha yarating Djangoda settings.py filedan SECRET_KEY ni oling va shu yerga joylang
+  - DEBUG=True      ==> Default
+  - ALLOWED_HOSTS=* ==> Default
+  - PostgreSQL database yarating unga user hamda passwordlarni ham joylashtiring
 * 6 - Ishga tushirish (Run)
   - ```python3 manage.py collectstatic```
   - ```python3 manage.py migrate```
