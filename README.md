@@ -33,7 +33,9 @@ pip install -r requirements.txt
 ```rb
 copy .env.exam .env (windows uchun) yoki 
 .env.exam .env(unix-ga asoslangan tizimlar)
-.env o'zgaruvchilari
+
+.env o'zgaruvchilari:
+
 SECRET_KEY      ==> Yangi loyiha yarating Djangoda settings.py filedan SECRET_KEY ni oling va shu yerga joylang
 DEBUG=True      ==> Default
 ALLOWED_HOSTS=* ==> Default
