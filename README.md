@@ -22,4 +22,5 @@
   - ```python3 manage.py collectstatic```
   - ```python3 manage.py migrate```
   - ```python3 manage.py runserver```
-
+* 7 - Loyihaga mustaqil davom etish: loyihaga ko'ra app yaratish
+  - ```python3 manage.py startapp your_app_name```
